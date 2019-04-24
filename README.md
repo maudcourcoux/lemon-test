@@ -1,47 +1,29 @@
-# Foundation for Sites Template
+# Lemon Test
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+Vous pouvez visualiser ce test à [cette adresse](https://maudcourcoux.github.io/lemon-test/).
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+## Crédits
 
-## Installation
+Page réalisée avec l'aide de :
 
-To use this template, your computer needs:
+- [Foundation 6](https://foundation.zurb.com/sites.html)
+- [NodeJS](https://nodejs.org/en/)
+- [Github Pages](http://pages.github.com/)
 
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
+## Installation locale
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+Cloner le projet sur votre poste
 
-### Using the CLI
+    git clone https://github.com/maudcourcoux/lemon-test.git nom-du-dossier
+    cd nom-du-dossier
+    git remote rm origin
+    git remote add origin url-de-votre-git
 
-Install the Foundation CLI with this command:
+Installer les dépendances
 
-```bash
-npm install foundation-cli --global
-```
+    cd nom-du-dossier
+    npm install
 
-Use this command to set up a blank Foundation for Sites project with this template:
+Lancer le serveur local
 
-```bash
-foundation new --framework sites --template basic
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-```
-
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+    npm start
